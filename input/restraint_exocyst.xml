@@ -1,0 +1,346 @@
+<RestraintSet name="restraint_set">
+
+<RigidBody>
+  <Restraint>
+	<Particle id="Sec3_GFPN"/>
+	<Particle id="Sec5_GFPN"/>
+	<Particle id="Sec6_GFPN"/>
+	<Particle id="Sec10_GFPN"/>
+	<Particle id="Sec15_GFPN"/>
+    <Particle id="Exo70_GFPN"/>
+	<Particle id="Exo84_GFPN"/>
+
+	<Particle id="Sec3_GFPC"/>
+	<Particle id="Sec5_GFPC"/>
+	<Particle id="Sec6_GFPC"/>
+	<Particle id="Sec8_GFPC"/>
+	<Particle id="Sec10_GFPC"/>
+	<Particle id="Sec15_GFPC"/>
+	<Particle id="Exo70_GFPC"/>
+	<Particle id="Exo84_GFPC"/>
+
+	<Particle id="Sec3_Anch"/>
+	<Particle id="Sec6_Anch"/>
+	<Particle id="Sec8_Anch"/>
+	<Particle id="Sec10_Anch"/>
+	<Particle id="Sec15_Anch"/>
+	<Particle id="Exo70_Anch"/>
+	<Particle id="Exo84_Anch"/>
+	
+  </Restraint>
+ </RigidBody>
+
+
+<Y2H>
+	<!-- restraints con info de oriol -->
+	<Restraint>
+	    <Particle id="Sec6"/>
+	    <Particle id="Sec8"/>
+	</Restraint>
+</Y2H>
+
+ <Diameter>
+
+        <Restraint name="dmtr18" max_diameter="60" std_dev="25">
+            <Particle id="Sec3_0"/>
+            <Particle id="Sec3_1"/>
+        </Restraint>
+        <Restraint name="dmtr20" max_diameter="60" std_dev="25">
+            <Particle id="Sec3_1"/>
+            <Particle id="Sec3_2"/>
+        </Restraint>
+        <Restraint name="dmtr20" max_diameter="50" std_dev="25">
+            <Particle id="Sec3_2"/>
+            <Particle id="Sec3_3"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec3_3"/>
+            <Particle id="Sec3_4"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec3_4"/>
+            <Particle id="Sec3_5"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec3_5"/>
+            <Particle id="Sec3_6"/>
+        </Restraint>
+        <Restraint name="dmtr18" max_diameter="50" std_dev="25">
+            <Particle id="Sec5_0"/>
+            <Particle id="Sec5_1"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Sec5_1"/>
+            <Particle id="Sec5_2"/>
+        </Restraint>
+        <Restraint name="dmtr20" max_diameter="50" std_dev="25">
+            <Particle id="Sec5_2"/>
+            <Particle id="Sec5_3"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec5_3"/>
+            <Particle id="Sec5_4"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Sec5_4"/>
+            <Particle id="Sec5_5"/>
+        </Restraint>
+        <Restraint name="dmtr18" max_diameter="50" std_dev="25">
+            <Particle id="Sec6_0"/>
+            <Particle id="Sec6_1"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Sec6_1"/>
+            <Particle id="Sec6_2"/>
+        </Restraint>
+        <Restraint name="dmtr20" max_diameter="50" std_dev="25">
+            <Particle id="Sec6_2"/>
+            <Particle id="Sec6_3"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec6_3"/>
+            <Particle id="Sec6_4"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Sec6_4"/>
+            <Particle id="Sec6_5"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec8_0"/>
+            <Particle id="Sec8_1"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec8_1"/>
+            <Particle id="Sec8_2"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec8_2"/>
+            <Particle id="Sec8_3"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec8_3"/>
+            <Particle id="Sec8_4"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec8_4"/>
+            <Particle id="Sec8_5"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Sec10_0"/>
+            <Particle id="Sec10_1"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Sec10_1"/>
+            <Particle id="Sec10_2"/>
+        </Restraint>
+        <Restraint name="dmtr20" max_diameter="65" std_dev="25">
+            <Particle id="Sec10_2"/>
+            <Particle id="Sec10_3"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec10_3"/>
+            <Particle id="Sec10_4"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Sec10_4"/>
+            <Particle id="Sec10_5"/>
+        </Restraint>
+        <Restraint name="dmtr18" max_diameter="50" std_dev="25">
+            <Particle id="Sec15_0"/>
+            <Particle id="Sec15_1"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Sec15_1"/>
+            <Particle id="Sec15_2"/>
+        </Restraint>
+        <Restraint name="dmtr20" max_diameter="50" std_dev="25">
+            <Particle id="Sec15_2"/>
+            <Particle id="Sec15_3"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec15_3"/>
+            <Particle id="Sec15_4"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Sec15_4"/>
+            <Particle id="Sec15_5"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Exo70_0"/>
+            <Particle id="Exo70_1"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Exo70_1"/>
+            <Particle id="Exo70_2"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Exo70_2"/>
+            <Particle id="Exo70_3"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Exo70_3"/>
+            <Particle id="Exo70_4"/>
+        </Restraint>
+	<Restraint name="dmtr22" max_diameter="60" std_dev="25">
+            <Particle id="Exo84_0"/>
+            <Particle id="Exo84_1"/>
+        </Restraint>
+	<Restraint name="dmtr22" max_diameter="60" std_dev="25">
+            <Particle id="Exo84_1"/>
+            <Particle id="Exo84_2"/>
+        </Restraint>
+	<Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Exo84_2"/>
+            <Particle id="Exo84_3"/>
+        </Restraint>
+
+
+        <Restraint name="dmtr17" max_diameter="17.422" std_dev="0">
+            <Particle id="Sec3_GFPN"/>
+            <Particle id="Sec3_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="127.456" std_dev="0">
+            <Particle id="Sec3_6"/>
+            <Particle id="Sec3_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="140.644" std_dev="0">
+            <Particle id="Sec3_6"/>
+            <Particle id="Sec3_Anch"/>
+        </Restraint>
+        <Restraint name="dmtr17" max_diameter="26.176" std_dev="0">
+            <Particle id="Sec5_GFPN"/>
+            <Particle id="Sec5_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="19.395" std_dev="0">
+            <Particle id="Sec5_5"/>
+            <Particle id="Sec5_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr17" max_diameter="17.601" std_dev="0">
+            <Particle id="Sec6_GFPN"/>
+            <Particle id="Sec6_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="114.9" std_dev="0">
+            <Particle id="Sec6_5"/>
+            <Particle id="Sec6_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="116.968" std_dev="0">
+            <Particle id="Sec6_5"/>
+            <Particle id="Sec6_Anch"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="137.189" std_dev="0">
+            <Particle id="Sec8_5"/>
+            <Particle id="Sec8_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="132.1" std_dev="0">
+            <Particle id="Sec8_5"/>
+            <Particle id="Sec8_Anch"/>
+        </Restraint>
+        <Restraint name="dmtr17" max_diameter="19.7" std_dev="0">
+            <Particle id="Sec10_GFPN"/>
+            <Particle id="Sec10_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="170.010" std_dev="0">
+            <Particle id="Sec10_5"/>
+            <Particle id="Sec10_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="183.943" std_dev="0">
+            <Particle id="Sec10_5"/>
+            <Particle id="Sec10_Anch"/>
+        </Restraint>
+        <Restraint name="dmtr17" max_diameter="29.529" std_dev="0">
+            <Particle id="Sec15_GFPN"/>
+            <Particle id="Sec15_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="105.398" std_dev="0">
+            <Particle id="Sec15_5"/>
+            <Particle id="Sec15_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="103.855" std_dev="0">
+            <Particle id="Sec15_5"/>
+            <Particle id="Sec15_Anch"/>
+        </Restraint>
+        <Restraint name="dmtr32" max_diameter="18.91" std_dev="0">
+            <Particle id="Exo70_0"/>
+            <Particle id="Exo70_GFPN"/>
+        </Restraint>
+	<Restraint name="dmtr29" max_diameter="188.505" std_dev="0">
+            <Particle id="Exo70_4"/>
+            <Particle id="Exo70_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr28" max_diameter="186.66" std_dev="0">
+            <Particle id="Exo70_4"/>
+            <Particle id="Exo70_Anch"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="15.819" std_dev="0">
+            <Particle id="Exo84_0"/>
+            <Particle id="Exo84_GFPN"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="122.9" std_dev="0">
+            <Particle id="Exo84_3"/>
+            <Particle id="Exo84_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="115.97" std_dev="0">
+            <Particle id="Exo84_3"/>
+            <Particle id="Exo84_Anch"/>
+        </Restraint>
+ </Diameter>
+
+
+
+ <ExcludedVolume>
+  <Restraint name="ev_restraint">
+            <Particle id="Sec3_0"/>
+            <Particle id="Sec3_1"/>
+            <Particle id="Sec3_2"/>
+            <Particle id="Sec3_3"/>
+            <Particle id="Sec3_4"/>
+            <Particle id="Sec3_5"/>
+            <Particle id="Sec3_6"/>
+            <Particle id="Sec5_0"/>
+            <Particle id="Sec5_1"/>
+            <Particle id="Sec5_2"/>
+            <Particle id="Sec5_3"/>
+            <Particle id="Sec5_4"/>
+            <Particle id="Sec5_5"/>
+            <Particle id="Sec6_0"/>
+            <Particle id="Sec6_1"/>
+            <Particle id="Sec6_2"/>
+            <Particle id="Sec6_3"/>
+            <Particle id="Sec6_4"/>
+            <Particle id="Sec6_5"/>
+            <Particle id="Sec8_0"/>
+            <Particle id="Sec8_1"/>
+            <Particle id="Sec8_2"/>
+            <Particle id="Sec8_3"/>
+            <Particle id="Sec8_4"/>
+            <Particle id="Sec8_5"/>
+            <Particle id="Sec10_0"/>
+            <Particle id="Sec10_1"/>
+            <Particle id="Sec10_2"/>
+            <Particle id="Sec10_3"/>
+            <Particle id="Sec10_4"/>
+            <Particle id="Sec10_5"/>
+            <Particle id="Sec15_0"/>
+            <Particle id="Sec15_1"/>
+            <Particle id="Sec15_2"/>
+            <Particle id="Sec15_3"/>
+            <Particle id="Sec15_4"/>
+            <Particle id="Sec15_5"/>
+	    <Particle id="Exo70_0"/>
+	    <Particle id="Exo70_1"/>
+	    <Particle id="Exo70_2"/>
+	    <Particle id="Exo70_3"/>
+	    <Particle id="Exo70_4"/>
+	    <Particle id="Exo84_0"/>
+	    <Particle id="Exo84_1"/>
+	    <Particle id="Exo84_2"/>
+	    <Particle id="Exo84_3"/>
+
+  </Restraint>
+ </ExcludedVolume> 
+
+
+
+
+
+</RestraintSet>

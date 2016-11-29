@@ -1,0 +1,352 @@
+<RestraintSet name="restraint_set">
+
+ <Distance>
+
+<Restraint name="dst0" distance="301.8" std_dev="47.7">
+	<Particle id="Cog2_GFPC"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+<Restraint name="dst1" distance="210.3" std_dev="17.6">
+	<Particle id="Cog3_GFPC"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+<Restraint name="dst2" distance="321" std_dev="38.1">
+	<Particle id="Cog7_GFPC"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+<Restraint name="dst3" distance="198.9" std_dev="33.6">
+	<Particle id="Cog8_GFPC"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+<Restraint name="dst4" distance="229.1" std_dev="23.5">
+	<Particle id="Cog2_GFPN"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+<Restraint name="dst5" distance="201.9" std_dev="18.4">
+	<Particle id="Cog3_GFPN"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+<Restraint name="dst6" distance="181.4" std_dev="14.8">
+	<Particle id="Cog4_GFPN"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+<Restraint name="dst7" distance="155.4" std_dev="38.4">
+	<Particle id="Cog5_GFPN"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+<Restraint name="dst8" distance="224.5" std_dev="31.7">
+	<Particle id="Cog6_GFPN"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+<Restraint name="dst9" distance="158.7" std_dev="37.5">
+	<Particle id="Cog7_GFPN"/>
+	<Particle id="Cog1_Anch"/>
+</Restraint>
+
+<Restraint name="dst10" distance="301.9" std_dev="41.1">
+	<Particle id="Cog3_GFPC"/>
+	<Particle id="Cog2_Anch"/>
+</Restraint>
+<Restraint name="dst11" distance="318.8" std_dev="39.4">
+	<Particle id="Cog4_GFPC"/>
+	<Particle id="Cog2_Anch"/>
+</Restraint>
+<Restraint name="dst12" distance="342.7" std_dev="33.8">
+	<Particle id="Cog5_GFPC"/>
+	<Particle id="Cog2_Anch"/>
+</Restraint>
+<Restraint name="dst13" distance="289.9" std_dev="27.9">
+	<Particle id="Cog6_GFPC"/>
+	<Particle id="Cog2_Anch"/>
+</Restraint>
+
+
+
+<Restraint name="dst15" distance="308.2" std_dev="33.9">
+	<Particle id="Cog3_GFPN"/>
+	<Particle id="Cog2_Anch"/>
+</Restraint>
+<Restraint name="dst16" distance="187.5" std_dev="25.8">
+	<Particle id="Cog4_GFPN"/>
+	<Particle id="Cog2_Anch"/>
+</Restraint>
+<Restraint name="dst17" distance="202.5" std_dev="33.5">
+	<Particle id="Cog5_GFPN"/>
+	<Particle id="Cog2_Anch"/>
+</Restraint>
+<Restraint name="dst18" distance="286.3" std_dev="37.2">
+	<Particle id="Cog6_GFPN"/>
+	<Particle id="Cog2_Anch"/>
+</Restraint>
+<Restraint name="dst19" distance="261.1" std_dev="46.3">
+	<Particle id="Cog7_GFPN"/>
+	<Particle id="Cog2_Anch"/>
+</Restraint>
+
+
+<Restraint name="dst20" distance="258.5" std_dev="41.1">
+	<Particle id="Cog5_GFPC"/>
+	<Particle id="Cog3_Anch"/>
+</Restraint>
+<Restraint name="dst21" distance="183.4" std_dev="36.4">
+	<Particle id="Cog6_GFPC"/>
+	<Particle id="Cog3_Anch"/>
+</Restraint>
+<Restraint name="dst22" distance="247.7" std_dev="40.9">
+	<Particle id="Cog7_GFPC"/>
+	<Particle id="Cog3_Anch"/>
+</Restraint>
+<Restraint name="dst23" distance="248.4" std_dev="29.5">
+	<Particle id="Cog8_GFPC"/>
+	<Particle id="Cog3_Anch"/>
+</Restraint>
+<Restraint name="dst25" distance="201.1" std_dev="27.9">
+	<Particle id="Cog2_GFPN"/>
+	<Particle id="Cog3_Anch"/>
+</Restraint>
+<Restraint name="dst26" distance="191.4" std_dev="33.4">
+	<Particle id="Cog4_GFPN"/>
+	<Particle id="Cog3_Anch"/>
+</Restraint>
+<Restraint name="dst27" distance="238.4" std_dev="28.4">
+	<Particle id="Cog5_GFPN"/>
+	<Particle id="Cog3_Anch"/>
+</Restraint>
+<Restraint name="dst28" distance="215.9" std_dev="18.4">
+	<Particle id="Cog6_GFPN"/>
+	<Particle id="Cog3_Anch"/>
+</Restraint>
+<Restraint name="dst29" distance="237.3" std_dev="27">
+	<Particle id="Cog7_GFPN"/>
+	<Particle id="Cog3_Anch"/>
+</Restraint>
+
+
+<Restraint name="dst30" distance="304.3" std_dev="41.6">
+	<Particle id="Cog2_GFPC"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+<Restraint name="dst31" distance="281.2" std_dev="84.4">
+	<Particle id="Cog3_GFPC"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+<Restraint name="dst32" distance="229.6" std_dev="28.1">
+	<Particle id="Cog5_GFPC"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+<Restraint name="dst33" distance="222.2" std_dev="28.5">
+	<Particle id="Cog6_GFPC"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+<Restraint name="dst34" distance="222.4" std_dev="22.8">
+	<Particle id="Cog7_GFPC"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+<Restraint name="dst35" distance="219.3" std_dev="15.3">
+	<Particle id="Cog2_GFPN"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+<Restraint name="dst36" distance="254.5" std_dev="38.4">
+	<Particle id="Cog3_GFPN"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+<Restraint name="dst37" distance="248.2" std_dev="29.2">
+	<Particle id="Cog5_GFPN"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+<Restraint name="dst38" distance="225.4" std_dev="27.8">
+	<Particle id="Cog6_GFPN"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+<Restraint name="dst39" distance="196.7" std_dev="23.6">
+	<Particle id="Cog7_GFPN"/>
+	<Particle id="Cog4_Anch"/>
+</Restraint>
+
+
+<Restraint name="dst40" distance="222.7" std_dev="34.9">
+	<Particle id="Cog2_GFPC"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst41" distance="279.1" std_dev="43.1">
+	<Particle id="Cog3_GFPC"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst42" distance="276.1" std_dev="37.2">
+	<Particle id="Cog4_GFPC"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst43" distance="203.9" std_dev="23.5">
+	<Particle id="Cog6_GFPN"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst44" distance="223" std_dev="33.3">
+	<Particle id="Cog7_GFPC"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst45" distance="182.4" std_dev="30.6">
+	<Particle id="Cog8_GFPC"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst46" distance="243.3" std_dev="31.9">
+	<Particle id="Cog2_GFPN"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst47" distance="211.4" std_dev="19.7">
+	<Particle id="Cog3_GFPN"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst48" distance="161.9" std_dev="37.2">
+	<Particle id="Cog4_GFPN"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst49" distance="214.1" std_dev="30.2">
+	<Particle id="Cog6_GFPN"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+<Restraint name="dst50" distance="202.4" std_dev="16.9">
+	<Particle id="Cog7_GFPN"/>
+	<Particle id="Cog5_Anch"/>
+</Restraint>
+
+
+
+<Restraint name="dst51" distance="199.5" std_dev="18.7">
+	<Particle id="Cog2_GFPC"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+<Restraint name="dst52" distance="172.3" std_dev="33.3">
+	<Particle id="Cog3_GFPC"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+<Restraint name="dst53" distance="174.9" std_dev="25.6">
+	<Particle id="Cog5_GFPC"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+<Restraint name="dst54" distance="252.3" std_dev="39.9">
+	<Particle id="Cog7_GFPC"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+<Restraint name="dst55" distance="190.5" std_dev="31.1">
+	<Particle id="Cog8_GFPC"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+<Restraint name="dst56" distance="173" std_dev="37">
+	<Particle id="Cog2_GFPN"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+<Restraint name="dst57" distance="187.5" std_dev="37.4">
+	<Particle id="Cog3_GFPN"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+<Restraint name="dst58" distance="235.8" std_dev="20.6">
+	<Particle id="Cog4_GFPN"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+<Restraint name="dst59" distance="198.8" std_dev="19.7">
+	<Particle id="Cog5_GFPN"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+<Restraint name="dst60" distance="208.3" std_dev="22.7">
+	<Particle id="Cog7_GFPN"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+
+
+
+<Restraint name="dst61" distance="243.4" std_dev="64.7">
+	<Particle id="Cog3_GFPC"/>
+	<Particle id="Cog7_Anch"/>
+</Restraint>
+<Restraint name="dst62" distance="194.9" std_dev="59">
+	<Particle id="Cog5_GFPC"/>
+	<Particle id="Cog7_Anch"/>
+</Restraint>
+<Restraint name="dst63" distance="254.2" std_dev="37.1">
+	<Particle id="Cog6_GFPC"/>
+	<Particle id="Cog7_Anch"/>
+</Restraint>
+<Restraint name="dst65" distance="234.1" std_dev="31.7">
+	<Particle id="Cog2_GFPN"/>
+	<Particle id="Cog7_Anch"/>
+</Restraint>
+<Restraint name="dst66" distance="226.3" std_dev="57.9">
+	<Particle id="Cog3_GFPN"/>
+	<Particle id="Cog7_Anch"/>
+</Restraint>
+<Restraint name="dst61" distance="214.9" std_dev="36.7">
+	<Particle id="Cog4_GFPN"/>
+	<Particle id="Cog7_Anch"/>
+</Restraint>
+<Restraint name="dst67" distance="187.4" std_dev="23.5">
+	<Particle id="Cog5_GFPN"/>
+	<Particle id="Cog7_Anch"/>
+</Restraint>
+<Restraint name="dst68" distance="170.9" std_dev="40.3">
+	<Particle id="Cog6_GFPN"/>
+	<Particle id="Cog7_Anch"/>
+</Restraint>
+
+
+
+<Restraint name="dst69" distance="196.7" std_dev="54">
+	<Particle id="Cog2_GFPC"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst70" distance="220.1" std_dev="18.6">
+	<Particle id="Cog3_GFPC"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst71" distance="359.8" std_dev="26.8">
+	<Particle id="Cog4_GFPC"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst72" distance="227.7" std_dev="26.5">
+	<Particle id="Cog5_GFPC"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst73" distance="208.3" std_dev="24.8">
+	<Particle id="Cog6_GFPC"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst74" distance="196.3" std_dev="40.4">
+	<Particle id="Cog7_GFPC"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst76" distance="256.8" std_dev="19.3">
+	<Particle id="Cog2_GFPN"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst77" distance="215.1" std_dev="25">
+	<Particle id="Cog3_GFPN"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst78" distance="202.2" std_dev="55.7">
+	<Particle id="Cog4_GFPN"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst79" distance="145.5" std_dev="23.6">
+	<Particle id="Cog5_GFPN"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst80" distance="190.8" std_dev="16.8">
+	<Particle id="Cog6_GFPN"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+<Restraint name="dst81" distance="177.5" std_dev="29.4">
+	<Particle id="Cog7_GFPN"/>
+	<Particle id="Cog8_Anch"/>
+</Restraint>
+
+
+
+
+
+<Restraint name="dst82" distance="205.5" std_dev="55">
+	<Particle id="Cog4_GFPC"/>
+	<Particle id="Cog6_Anch"/>
+</Restraint>
+
+</Distance>
+
+</RestraintSet>

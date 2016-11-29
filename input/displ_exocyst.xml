@@ -1,0 +1,112 @@
+<Display>
+   <Protein>
+    	<Fragment id="Sec3_GFPN"><Color r=".15" g="0.4" b="0.6"/></Fragment>
+<Chain>
+    	<Fragment id="Sec3_0"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+    	<Fragment id="Sec3_1"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+    	<Fragment id="Sec3_2"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+    	<Fragment id="Sec3_3"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+    	<Fragment id="Sec3_4"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+    	<Fragment id="Sec3_5"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+    	<Fragment id="Sec3_6"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+</Chain>
+        <Fragment id="Sec3_GFPC"><Color r=".3" g="0.6" b="0.8"/></Fragment>
+        <Fragment id="Sec3_Anch"><Color r=".3" g="0.6" b="0.8"/></Fragment>
+   </Protein>
+  
+   <Protein>
+    	<Fragment id="Sec5_GFPN"><Color r=".2" g="0.6" b=".2"/></Fragment>
+<Chain>
+    	<Fragment id="Sec5_0"><Color r=".3" g="0.69" b="0.29"/></Fragment>
+    	<Fragment id="Sec5_1"><Color r=".3" g="0.69" b="0.29"/></Fragment>
+    	<Fragment id="Sec5_2"><Color r=".3" g="0.69" b="0.29"/></Fragment>
+    	<Fragment id="Sec5_3"><Color r=".3" g="0.69" b="0.29"/></Fragment>
+    	<Fragment id="Sec5_4"><Color r=".3" g="0.69" b=".29"/></Fragment>
+    	<Fragment id="Sec5_5"><Color r=".3" g="0.69" b=".29"/></Fragment>
+</Chain>
+        <Fragment id="Sec5_GFPC"><Color r=".4" g=".75" b=".3"/></Fragment>
+    </Protein>
+
+    <Protein>
+    	<Fragment id="Sec6_GFPN"><Color r="1" g="1" b="0"/></Fragment>
+<Chain>
+	    <Fragment id="Sec6_0"><Color r="1" g="1" b="0.2"/></Fragment>
+  	    <Fragment id="Sec6_1"><Color r="1" g="1" b="0.2"/></Fragment>
+    	<Fragment id="Sec6_2"><Color r="1" g="1" b="0.2"/></Fragment>
+    	<Fragment id="Sec6_3"><Color r="1" g="1" b="0.2"/></Fragment>
+    	<Fragment id="Sec6_4"><Color r="1" g="1" b="0.2"/></Fragment>
+	    <Fragment id="Sec6_5"><Color r="1" g="1" b="0.2"/></Fragment>
+</Chain>
+        <Fragment id="Sec6_GFPC"><Color r="1" g="1" b="0.4"/></Fragment>
+        <Fragment id="Sec6_Anch"><Color r="1" g="1" b="0.4"/></Fragment>
+    </Protein>
+
+    <Protein>
+<Chain>
+	<Fragment id="Sec8_0"><Color r=".65" g="0.34" b="0.16"/></Fragment>
+	<Fragment id="Sec8_1"><Color r=".65" g="0.34" b="0.16"/></Fragment>
+	<Fragment id="Sec8_2"><Color r=".65" g="0.34" b="0.16"/></Fragment>
+	<Fragment id="Sec8_3"><Color r=".65" g="0.34" b="0.16"/></Fragment>
+	<Fragment id="Sec8_4"><Color r=".65" g="0.34" b="0.16"/></Fragment>
+	<Fragment id="Sec8_5"><Color r=".65" g="0.34" b="0.16"/></Fragment>
+</Chain>
+        <Fragment id="Sec8_GFPC"><Color r=".7" g="0.4" b="0"/></Fragment>
+        <Fragment id="Sec8_Anch"><Color r=".7" g="0.4" b="0"/></Fragment>
+    </Protein>
+
+    <Protein>
+    	<Fragment id="Sec10_GFPN"><Color r=".5" g="0.3" b="0.6"/></Fragment>
+<Chain>
+    	<Fragment id="Sec10_0"><Color r="0.6" g=".31" b="0.64"/></Fragment>
+    	<Fragment id="Sec10_1"><Color r="0.6" g=".31" b="0.64"/></Fragment>
+    	<Fragment id="Sec10_2"><Color r="0.6" g=".31" b="0.64"/></Fragment>
+    	<Fragment id="Sec10_3"><Color r="0.6" g=".31" b="0.64"/></Fragment>
+    	<Fragment id="Sec10_4"><Color r="0.6" g=".31" b="0.64"/></Fragment>
+    	<Fragment id="Sec10_5"><Color r="0.6" g=".31" b="0.64"/></Fragment>
+</Chain>
+        <Fragment id="Sec10_GFPC"><Color r="0.7" g=".4" b="0.7"/></Fragment>
+        <Fragment id="Sec10_Anch"><Color r="0.7" g=".4" b="0.7"/></Fragment>
+    </Protein>    
+    <Protein>
+    	<Fragment id="Sec15_GFPN"><Color r=".9" g="0.5" b=".7"/></Fragment>
+<Chain>
+        <Fragment id="Sec15_0"><Color r=".97" g="0.51" b=".75"/></Fragment>
+        <Fragment id="Sec15_1"><Color r=".97" g="0.51" b=".75"/></Fragment>
+        <Fragment id="Sec15_2"><Color r=".97" g="0.51" b=".75"/></Fragment>
+        <Fragment id="Sec15_3"><Color r=".97" g="0.51" b=".75"/></Fragment>
+        <Fragment id="Sec15_4"><Color r=".97" g="0.51" b=".75"/></Fragment>
+        <Fragment id="Sec15_5"><Color r=".97" g="0.51" b=".75"/></Fragment>
+</Chain>
+        <Fragment id="Sec15_GFPC"><Color r="1" g="0.6" b=".8"/></Fragment>
+        <Fragment id="Sec15_Anch"><Color r="1" g="0.6" b=".8"/></Fragment>
+    </Protein>
+    <Protein>
+    	<Fragment id="Exo70_GFPN"><Color r=".80" g="0" b="0"/></Fragment>
+<Chain>
+    <Fragment id="Exo70_0"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+    <Fragment id="Exo70_1"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+    <Fragment id="Exo70_2"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+    <Fragment id="Exo70_3"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+    <Fragment id="Exo70_4"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+    
+</Chain>
+        <Fragment id="Exo70_GFPC"><Color r="1" g="0.2" b="0.2"/></Fragment>
+        <Fragment id="Exo70_Anch"><Color r="1" g="0.2" b="0.2"/></Fragment>
+    </Protein>
+
+
+
+    <Protein>
+    	<Fragment id="Exo84_GFPN"><Color r=".9" g="0.4" b="0"/></Fragment>
+<Chain>
+	    <Fragment id="Exo84_0"><Color r="1" g="0.5" b="0"/></Fragment>
+    	<Fragment id="Exo84_1"><Color r="1" g="0.5" b="0"/></Fragment>
+	    <Fragment id="Exo84_2"><Color r="1" g="0.5" b="0"/></Fragment>
+    	<Fragment id="Exo84_3"><Color r="1" g="0.5" b="0"/></Fragment>
+</Chain>
+        <Fragment id="Exo84_GFPC"><Color r="1" g="0.6" b=".1"/></Fragment>
+        <Fragment id="Exo84_Anch"><Color r="1" g="0.6" b=".1"/></Fragment>
+    </Protein>
+
+</Display>
+

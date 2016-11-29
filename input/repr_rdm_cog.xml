@@ -1,0 +1,107 @@
+<Representation>
+<Fragment id="Cog1_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="584.496" y="425.027" z="555.287" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog2_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="463.03" y="615.441" z="586.439" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog2_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="346.022" y="591.453" z="654.784" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog2_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="329.838" y="301.054" z="554.949" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog3_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="448.856" y="571.409" z="589.806" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog3_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="459.303" y="592.27" z="573.42" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog3_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="544.93" y="522.969" z="755.951" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog4_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="461.856" y="359.103" z="671.702" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog4_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="489.582" y="389.33" z="822.51" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog4_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="423.122" y="630.145" z="368.908" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog5_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="438.145" y="480.835" z="565.963" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog5_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="406.822" y="626.084" z="598.243" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog5_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="332.443" y="387.855" z="589.797" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog6_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="416.906" y="574.29" z="589.199" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog6_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="501.823" y="528.275" z="560.158" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog6_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="531.577" y="572.343" z="724.916" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog7_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="465.272" y="527.711" z="531.944" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog7_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="346.237" y="612.866" z="581.185" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog7_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="285.188" y="485.681" z="675.893" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog8_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="423.519" y="544.779" z="554.472" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog8_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="316.034" y="429.079" z="515.475" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+</Representation>

@@ -1,0 +1,294 @@
+<RestraintSet name="restraint_set">
+
+<RigidBody>
+  <Restraint>
+	<Particle id="Cog2_GFPN"/>
+	<Particle id="Cog3_GFPN"/>
+	<Particle id="Cog4_GFPN"/>
+	<Particle id="Cog5_GFPN"/>
+	<Particle id="Cog6_GFPN"/>
+    <Particle id="Cog7_GFPN"/>
+
+	<Particle id="Cog2_GFPC"/>
+	<Particle id="Cog3_GFPC"/>
+	<Particle id="Cog4_GFPC"/>
+	<Particle id="Cog5_GFPC"/>
+	<Particle id="Cog6_GFPC"/>
+	<Particle id="Cog7_GFPC"/>
+	<Particle id="Cog8_GFPC"/>
+
+	<Particle id="Cog1_Anch"/>
+	<Particle id="Cog2_Anch"/>
+	<Particle id="Cog3_Anch"/>
+	<Particle id="Cog4_Anch"/>
+	<Particle id="Cog5_Anch"/>
+	<Particle id="Cog6_Anch"/>
+	<Particle id="Cog7_Anch"/>
+	<Particle id="Cog8_Anch"/>
+	
+  </Restraint>
+  </RigidBody>
+  
+  <Y2H>
+     <Restraint>
+         <Particle id="Cog6"/>
+         <Particle id="Cog8"/>
+     </Restraint>
+ </Y2H>
+
+
+
+ <Diameter>
+
+        <Restraint name="dmtr18" max_diameter="50" std_dev="25">
+            <Particle id="Cog2_0"/>
+            <Particle id="Cog2_1"/>
+        </Restraint>
+
+        <Restraint name="dmtr18" max_diameter="50" std_dev="25">
+            <Particle id="Cog3_0"/>
+            <Particle id="Cog3_1"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Cog3_1"/>
+            <Particle id="Cog3_2"/>
+        </Restraint>
+        <Restraint name="dmtr20" max_diameter="50" std_dev="25">
+            <Particle id="Cog3_2"/>
+            <Particle id="Cog3_3"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog3_3"/>
+            <Particle id="Cog3_4"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Cog3_4"/>
+            <Particle id="Cog3_5"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog4_0"/>
+            <Particle id="Cog4_1"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog4_1"/>
+            <Particle id="Cog4_2"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog4_2"/>
+            <Particle id="Cog4_3"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog4_3"/>
+            <Particle id="Cog4_4"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog4_4"/>
+            <Particle id="Cog4_5"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog4_5"/>
+            <Particle id="Cog4_6"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Cog5_0"/>
+            <Particle id="Cog5_1"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Cog5_1"/>
+            <Particle id="Cog5_2"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Cog5_2"/>
+            <Particle id="Cog5_3"/>
+        </Restraint>
+        <Restraint name="dmtr18" max_diameter="50" std_dev="25">
+            <Particle id="Cog6_0"/>
+            <Particle id="Cog6_1"/>
+        </Restraint>
+        <Restraint name="dmtr19" max_diameter="50" std_dev="25">
+            <Particle id="Cog6_1"/>
+            <Particle id="Cog6_2"/>
+        </Restraint>
+        <Restraint name="dmtr20" max_diameter="50" std_dev="25">
+            <Particle id="Cog6_2"/>
+            <Particle id="Cog6_3"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog6_3"/>
+            <Particle id="Cog6_4"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog6_4"/>
+            <Particle id="Cog6_5"/>
+        </Restraint>
+        <Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog6_5"/>
+            <Particle id="Cog6_6"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog7_0"/>
+            <Particle id="Cog7_1"/>
+        </Restraint>
+	<Restraint name="dmtr21" max_diameter="50" std_dev="25">
+            <Particle id="Cog7_1"/>
+            <Particle id="Cog7_2"/>
+        </Restraint>
+	<Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Cog8_0"/>
+            <Particle id="Cog8_1"/>
+        </Restraint>
+	<Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Cog8_1"/>
+            <Particle id="Cog8_2"/>
+        </Restraint>
+	<Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Cog8_2"/>
+            <Particle id="Cog8_3"/>
+        </Restraint>
+	<Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Cog8_3"/>
+            <Particle id="Cog8_4"/>
+        </Restraint>
+	<Restraint name="dmtr22" max_diameter="50" std_dev="25">
+            <Particle id="Cog8_4"/>
+            <Particle id="Cog8_5"/>
+        </Restraint>
+
+
+
+        <Restraint name="dmtr17" max_diameter="20.74" std_dev="0">
+            <Particle id="Cog2_GFPN"/>
+            <Particle id="Cog2_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="153.7575" std_dev="20.84">
+            <Particle id="Cog2_1"/>
+            <Particle id="Cog2_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="153.7575" std_dev="23.02">
+            <Particle id="Cog2_1"/>
+            <Particle id="Cog2_Anch"/>
+        </Restraint>
+
+        <Restraint name="dmtr17" max_diameter="20.74" std_dev="0">
+            <Particle id="Cog3_GFPN"/>
+            <Particle id="Cog3_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="106.597" std_dev="20.84">
+            <Particle id="Cog3_5"/>
+            <Particle id="Cog3_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="106.597" std_dev="23.02">
+            <Particle id="Cog3_5"/>
+            <Particle id="Cog3_Anch"/>
+        </Restraint>
+
+        <Restraint name="dmtr17" max_diameter="20.74" std_dev="0">
+            <Particle id="Cog4_GFPN"/>
+            <Particle id="Cog4_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="258.918" std_dev="20.84">
+            <Particle id="Cog4_6"/>
+            <Particle id="Cog4_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="258.918" std_dev="23.02">
+            <Particle id="Cog4_6"/>
+            <Particle id="Cog4_Anch"/>
+        </Restraint>
+
+        <Restraint name="dmtr17" max_diameter="20.74" std_dev="0">
+            <Particle id="Cog5_GFPN"/>
+            <Particle id="Cog5_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="124.855" std_dev="20.84">
+            <Particle id="Cog5_3"/>
+            <Particle id="Cog5_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="124.855" std_dev="23.02">
+            <Particle id="Cog5_3"/>
+            <Particle id="Cog5_Anch"/>
+        </Restraint>
+
+        <Restraint name="dmtr17" max_diameter="20.74" std_dev="0">
+            <Particle id="Cog6_GFPN"/>
+            <Particle id="Cog6_0"/>
+        </Restraint>
+        <Restraint name="dmtr22" max_diameter="86.559" std_dev="20.84">
+            <Particle id="Cog6_6"/>
+            <Particle id="Cog6_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="86.559" std_dev="23.02">
+            <Particle id="Cog6_6"/>
+            <Particle id="Cog6_Anch"/>
+        </Restraint>
+
+        <Restraint name="dmtr32" max_diameter="20.74" std_dev="0">
+            <Particle id="Cog7_0"/>
+            <Particle id="Cog7_GFPN"/>
+        </Restraint>
+	<Restraint name="dmtr29" max_diameter="84.962" std_dev="20.84">
+            <Particle id="Cog7_2"/>
+            <Particle id="Cog7_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr28" max_diameter="84.962" std_dev="23.02">
+            <Particle id="Cog7_2"/>
+            <Particle id="Cog7_Anch"/>
+        </Restraint>
+
+        <Restraint name="dmtr22" max_diameter="81.332" std_dev="20.84">
+            <Particle id="Cog8_5"/>
+            <Particle id="Cog8_GFPC"/>
+        </Restraint>
+        <Restraint name="dmtr23" max_diameter="81.332" std_dev="23.02">
+            <Particle id="Cog8_5"/>
+            <Particle id="Cog8_Anch"/>
+        </Restraint>
+ </Diameter>
+
+
+
+ <ExcludedVolume>
+  <Restraint name="ev_restraint">
+            <Particle id="Cog2_0"/>
+            <Particle id="Cog2_1"/>
+            <Particle id="Cog3_0"/>
+            <Particle id="Cog3_1"/>
+            <Particle id="Cog3_2"/>
+            <Particle id="Cog3_3"/>
+            <Particle id="Cog3_4"/>
+            <Particle id="Cog3_5"/>
+            <Particle id="Cog4_0"/>
+            <Particle id="Cog4_1"/>
+            <Particle id="Cog4_2"/>
+            <Particle id="Cog4_3"/>
+            <Particle id="Cog4_4"/>
+            <Particle id="Cog4_5"/>
+            <Particle id="Cog4_6"/>
+            <Particle id="Cog5_0"/>
+            <Particle id="Cog5_1"/>
+            <Particle id="Cog5_2"/>
+            <Particle id="Cog5_3"/>
+            <Particle id="Cog6_0"/>
+            <Particle id="Cog6_1"/>
+            <Particle id="Cog6_2"/>
+            <Particle id="Cog6_3"/>
+            <Particle id="Cog6_4"/>
+            <Particle id="Cog6_5"/>
+            <Particle id="Cog6_6"/>
+	    <Particle id="Cog7_0"/>
+	    <Particle id="Cog7_1"/>
+	    <Particle id="Cog7_2"/>
+	    <Particle id="Cog8_0"/>
+	    <Particle id="Cog8_1"/>
+	    <Particle id="Cog8_2"/>
+	    <Particle id="Cog8_3"/>
+	    <Particle id="Cog8_4"/>
+	    <Particle id="Cog8_5"/>
+
+  </Restraint>
+ </ExcludedVolume> 
+
+
+
+
+
+</RestraintSet>

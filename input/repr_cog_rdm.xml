@@ -1,0 +1,319 @@
+<Representation>
+<Fragment id="Cog1_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="569.828" y="600.371" z="700.307" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog2_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="592.124" y="542.587" z="480.884" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog2_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="540.604" y="417.686" z="454.869" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog2_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="590.163" y="321.006" z="742.554" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog3_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="583.563" y="514.992" z="517.168" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog3_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="601.381" y="533.093" z="504.219" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog3_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="398.195" y="573.461" z="554.589" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog4_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="465.31" y="452" z="701.543" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog4_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="319.488" y="472.341" z="649.098" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog4_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="812.48" y="531.743" z="502.175" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog5_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="592.859" y="478.766" z="603.711" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog5_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="591.623" y="491.718" z="452.208" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog5_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="570.835" y="347.278" z="654.841" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog6_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="589.843" y="485.823" z="505.387" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog6_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="596.329" y="554.389" z="579.056" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog6_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="439.028" y="579.59" z="511.297" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog7_GFPN">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="629.582" y="522.597" z="575.073" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog7_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="615.762" y="432.129" z="450.696" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog7_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="511.758" y="324.77" z="531.521" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog8_GFPC">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="617.422" y="486.293" z="542.27" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+<Fragment id="Cog8_Anch">
+	<GeometricShapeRep total_residue="150">
+		<Sphere><InitialPosition x="652.821" y="352.367" z="627.536" optimize="1"/></Sphere>
+	</GeometricShapeRep>
+</Fragment>
+
+<Protein>
+     <Chain id="Cog2">
+        <Fragment id="Cog2_0">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="95" y="595" z="215" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog2_1">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="308" y="753" z="853" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+     </Chain>
+</Protein>
+   <Protein>
+     <Chain id="Cog3">
+        <Fragment id="Cog3_0">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="60" y="376" z="15" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog3_1">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="246" y="315" z="43" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog3_2">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="877" y="912" z="83" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+         <Fragment id="Cog3_3">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="594" y="67" z="598" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog3_4">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="696" y="203" z="487" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+	<Fragment id="Cog3_5">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="659" y="372" z="397" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+     </Chain>
+   </Protein>
+
+   <Protein>
+     <Chain id="Cog4">
+        <Fragment id="Cog4_0">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="140" y="45" z="851" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog4_1">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="943" y="709" z="798" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog4_2">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="267" y="176" z="319" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+         <Fragment id="Cog4_3">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="299" y="957" z="472" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog4_4">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="364" y="282" z="27" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+	<Fragment id="Cog4_5">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="404" y="49" z="263" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+	<Fragment id="Cog4_6">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="475" y="132" z="972" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+     </Chain>
+   </Protein>
+
+
+<Protein>
+     <Chain id="Cog5">
+        <Fragment id="Cog5_0">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="497" y="296" z="933" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog5_1">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="335" y="217" z="80" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog5_2">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="468" y="551" z="862" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog5_3">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="853" y="897" z="68" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+     </Chain>
+</Protein>
+
+<Protein>
+     <Chain id="Cog6">
+        <Fragment id="Cog6_0">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="379" y="718" z="240" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog6_1">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="215" y="604" z="965" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog6_2">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="372" y="74" z="108" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog6_3">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="635" y="515" z="637" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog6_4">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="927" y="826" z="380" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog6_5">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="356" y="917" z="782" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog6_6">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="43" y="275" z="320" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+     </Chain>
+</Protein>
+
+<Protein>
+     <Chain id="Cog7">
+	
+	<Fragment id="Cog7_0">
+		<GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="782" y="762" z="65" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+	</Fragment>	
+	<Fragment id="Cog7_1">
+		<GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="959" y="60" z="78" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+	</Fragment>
+	<Fragment id="Cog7_2">
+		<GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="886" y="521" z="227" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+	</Fragment>
+     </Chain>
+</Protein>
+
+<Protein>
+     <Chain id="Cog8">
+	<Fragment id="Cog8_0">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="732" y="160" z="860" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+	<Fragment id="Cog8_1">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="511" y="696" z="284" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+	<Fragment id="Cog8_2">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="524" y="362" z="613" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog8_3">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="384" y="597" z="710" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog8_4">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="458" y="446" z="60" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Cog8_5">
+            <GeometricShapeRep total_residue="120">
+<Sphere><InitialPosition  x="265" y="412" z="117" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+     </Chain>
+</Protein>
+
+</Representation>

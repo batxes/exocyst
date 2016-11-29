@@ -1,0 +1,41 @@
+<Display>
+   <Protein>
+    	<Chain><Fragment id="Sec3_GFPN"><Color r=".04" g="0.3" b="0.72"/></Fragment></Chain>
+        <Chain><Fragment id="Sec3_GFPC"><Color r=".04" g="0.3" b="0.72"/></Fragment></Chain>
+        <Chain><Fragment id="Sec3_Anch"><Color r=".04" g="0.3" b="0.72"/></Fragment></Chain>
+   </Protein>    
+   <Protein>
+    	<Chain><Fragment id="Sec5_GFPN"><Color r="1" g="0.5" b="0"/></Fragment></Chain>
+        <Chain><Fragment id="Sec5_GFPC"><Color r="1" g="0.5" b="0"/></Fragment></Chain>
+    </Protein>       
+    <Protein>
+    	<Chain><Fragment id="Sec6_GFPN"><Color r="1" g="0.87" b="0"/></Fragment></Chain>
+        <Chain><Fragment id="Sec6_GFPC"><Color r="1" g="0.87" b="0"/></Fragment></Chain>
+        <Chain><Fragment id="Sec6_Anch"><Color r="1" g="0.87" b="0"/></Fragment></Chain>
+    </Protein>
+    <Protein>
+        <Chain><Fragment id="Sec8_GFPC"><Color r=".97" g="0.51" b="0.75"/></Fragment></Chain>
+        <Chain><Fragment id="Sec8_Anch"><Color r=".97" g="0.51" b="0.75"/></Fragment></Chain>
+    </Protein>
+    <Protein>
+    	<Chain><Fragment id="Sec10_GFPN"><Color r="0.39" g="0.31" b="0.14"/></Fragment></Chain>
+        <Chain><Fragment id="Sec10_GFPC"><Color r="0.39" g="0.31" b="0.14"/></Fragment></Chain>
+        <Chain><Fragment id="Sec10_Anch"><Color r="0.39" g="0.31" b="0.14"/></Fragment></Chain>
+    </Protein>    
+    <Protein>
+    	<Chain><Fragment id="Sec15_GFPN"><Color r=".6" g="0.31" b="0.64"/></Fragment></Chain>
+        <Chain><Fragment id="Sec15_GFPC"><Color r=".6" g="0.31" b="0.64"/></Fragment></Chain>
+        <Chain><Fragment id="Sec15_Anch"><Color r=".6" g="0.31" b="0.64"/></Fragment></Chain>
+    </Protein>
+    <Protein>
+        <Chain><Fragment id="Exo70_GFPN"><Color r=".89" g="0.1" b="0.1"/></Fragment></Chain>
+        <Chain><Fragment id="Exo70_GFPC"><Color r=".89" g="0.1" b="0.1"/></Fragment></Chain>
+        <Chain><Fragment id="Exo70_Anch"><Color r=".89" g="0.1" b="0.1"/></Fragment></Chain>
+    </Protein>
+    <Protein>
+        <Chain><Fragment id="Exo84_GFPN"><Color r=".3" g="0.69" b="0.29"/></Fragment></Chain>
+        <Chain><Fragment id="Exo84_GFPC"><Color r=".3" g="0.69" b="0.29"/></Fragment></Chain>
+        <Chain><Fragment id="Exo84_Anch"><Color r=".3" g="0.69" b="0.29"/></Fragment></Chain>
+    </Protein>
+</Display>
+

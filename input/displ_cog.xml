@@ -1,0 +1,96 @@
+<Display>
+  
+   <Protein>
+    	<Fragment id="Cog2_GFPN"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+<Chain>
+    	<Fragment id="Cog2_0"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+    	<Fragment id="Cog2_1"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+</Chain>
+        <Fragment id="Cog2_GFPC"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+        <Fragment id="Cog2_Anch"><Color r=".89" g="0.1" b="0.1"/></Fragment>
+    </Protein>
+
+    <Protein>
+    	<Fragment id="Cog3_GFPN"><Color r="1" g="1" b="0"/></Fragment>
+<Chain>
+	    <Fragment id="Cog3_0"><Color r="1" g="1" b="0.2"/></Fragment>
+  	    <Fragment id="Cog3_1"><Color r="1" g="1" b="0.2"/></Fragment>
+    	<Fragment id="Cog3_2"><Color r="1" g="1" b="0.2"/></Fragment>
+    	<Fragment id="Cog3_3"><Color r="1" g="1" b="0.2"/></Fragment>
+    	<Fragment id="Cog3_4"><Color r="1" g="1" b="0.2"/></Fragment>
+	    <Fragment id="Cog3_5"><Color r="1" g="1" b="0.2"/></Fragment>
+</Chain>
+        <Fragment id="Cog3_GFPC"><Color r="1" g="1" b="0.4"/></Fragment>
+        <Fragment id="Cog3_Anch"><Color r="1" g="1" b="0.4"/></Fragment>
+    </Protein>
+<Protein>
+    <Fragment id="Cog4_GFPN"><Color r="0" g="0" b="0.8"/></Fragment>
+    <Chain>
+        <Fragment id="Cog4_0"><Color r="0" g="0" b="0.8"/></Fragment>
+        <Fragment id="Cog4_1"><Color r="0" g="0" b="0.8"/></Fragment>
+        <Fragment id="Cog4_2"><Color r="0" g="0" b="0.8"/></Fragment>
+        <Fragment id="Cog4_3"><Color r="0" g="0" b="0.8"/></Fragment>
+        <Fragment id="Cog4_4"><Color r="0" g="0" b="0.8"/></Fragment>
+        <Fragment id="Cog4_5"><Color r="0" g="0" b="0.8"/></Fragment>
+        <Fragment id="Cog4_6"><Color r="0" g="0" b="0.8"/></Fragment>
+    </Chain>
+    <Fragment id="Cog4_GFPC"><Color r="0" g="0" b="0.8"/></Fragment>
+    <Fragment id="Cog4_Anch"><Color r="0" g="0" b="0.8"/></Fragment>
+</Protein>
+
+
+
+    <Protein>
+    	<Fragment id="Cog5_GFPN"><Color r=".3" g="0.3" b="0.3"/></Fragment>
+<Chain>
+    	<Fragment id="Cog5_0"><Color r=".3" g="0.3" b="0.3"/></Fragment>
+    	<Fragment id="Cog5_1"><Color r=".3" g="0.3" b="0.3"/></Fragment>
+    	<Fragment id="Cog5_2"><Color r=".3" g="0.3" b="0.3"/></Fragment>
+    	<Fragment id="Cog5_3"><Color r=".3" g="0.3" b="0.3"/></Fragment>
+</Chain>
+        <Fragment id="Cog5_GFPC"><Color r=".3" g="0.3" b="0.3"/></Fragment>
+        <Fragment id="Cog5_Anch"><Color r=".3" g="0.3" b="0.3"/></Fragment>
+    </Protein>    
+    <Protein>
+    	<Fragment id="Cog6_GFPN"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+<Chain>
+        <Fragment id="Cog6_0"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+        <Fragment id="Cog6_1"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+        <Fragment id="Cog6_2"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+        <Fragment id="Cog6_3"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+        <Fragment id="Cog6_4"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+        <Fragment id="Cog6_5"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+        <Fragment id="Cog6_6"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+</Chain>
+        <Fragment id="Cog6_GFPC"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+        <Fragment id="Cog6_Anch"><Color r=".21" g="0.49" b="0.72"/></Fragment>
+    </Protein>
+    <Protein>
+    	<Fragment id="Cog7_GFPN"><Color r=".7" g="0.7" b="0.7"/></Fragment>
+<Chain>
+    <Fragment id="Cog7_0"><Color r=".7" g="0.7" b="0.7"/></Fragment>
+    <Fragment id="Cog7_1"><Color r=".7" g="0.7" b="0.7"/></Fragment>
+    <Fragment id="Cog7_2"><Color r=".7" g="0.7" b="0.7"/></Fragment>
+    
+</Chain>
+        <Fragment id="Cog7_GFPC"><Color r=".7" g="0.7" b="0.7"/></Fragment>
+        <Fragment id="Cog7_Anch"><Color r=".7" g="0.7" b="0.7"/></Fragment>
+    </Protein>
+
+
+
+    <Protein>
+<Chain>
+	    <Fragment id="Cog8_0"><Color r="1" g="0.5" b="0"/></Fragment>
+    	<Fragment id="Cog8_1"><Color r="1" g="0.5" b="0"/></Fragment>
+	    <Fragment id="Cog8_2"><Color r="1" g="0.5" b="0"/></Fragment>
+    	<Fragment id="Cog8_3"><Color r="1" g="0.5" b="0"/></Fragment>
+    	<Fragment id="Cog8_4"><Color r="1" g="0.5" b="0"/></Fragment>
+    	<Fragment id="Cog8_5"><Color r="1" g="0.5" b="0"/></Fragment>
+</Chain>
+        <Fragment id="Cog8_GFPC"><Color r="1" g="0.6" b=".1"/></Fragment>
+        <Fragment id="Cog8_Anch"><Color r="1" g="0.6" b=".1"/></Fragment>
+    </Protein>
+
+</Display>
+

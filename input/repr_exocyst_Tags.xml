@@ -1,0 +1,129 @@
+<Representation>
+   <Protein>
+    	<Fragment id="Sec3_GFPN">
+            <GeometricShapeRep total_residue="250">
+                <Sphere><InitialPosition  x="418" y="518" z="45" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec3_GFPC">
+            <GeometricShapeRep total_residue="750">
+                <Sphere><InitialPosition  x="503" y="646" z="970" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec3_Anch">
+            <GeometricShapeRep total_residue="465">
+                <Sphere><InitialPosition  x="752" y="588" z="814" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+   </Protein>
+   <Protein>
+   	 <Fragment id="Sec5_GFPN">
+            <GeometricShapeRep total_residue="250">
+                <Sphere><InitialPosition  x="631" y="623" z="515" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec5_GFPC">
+            <GeometricShapeRep total_residue="750">
+                <Sphere><InitialPosition  x="981" y="516" z="955" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+   </Protein>
+   <Protein>
+       	<Fragment id="Sec6_GFPN">
+            <GeometricShapeRep total_residue="250">
+                <Sphere><InitialPosition  x="620" y="140" z="179" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec6_GFPC">
+            <GeometricShapeRep total_residue="750">
+                <Sphere><InitialPosition  x="611" y="204" z="529" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec6_Anch">
+            <GeometricShapeRep total_residue="465">
+                <Sphere><InitialPosition  x="49" y="562" z="272" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+   </Protein>
+   <Protein>
+
+        <Fragment id="Sec8_GFPC">
+            <GeometricShapeRep total_residue="750">
+                <Sphere><InitialPosition  x="206" y="722" z="118" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec8_Anch">
+            <GeometricShapeRep total_residue="465">
+                <Sphere><InitialPosition  x="436" y="424" z="303" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+   </Protein>
+   <Protein>
+   	 <Fragment id="Sec10_GFPN">
+            <GeometricShapeRep total_residue="250">
+                <Sphere><InitialPosition  x="402" y="292" z="79" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec10_GFPC">
+            <GeometricShapeRep total_residue="750">
+                <Sphere><InitialPosition  x="30" y="272" z="78" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec10_Anch">
+            <GeometricShapeRep total_residue="465">
+                <Sphere><InitialPosition  x="782" y="977" z="796" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+   </Protein>
+   <Protein>
+   	 <Fragment id="Sec15_GFPN">
+            <GeometricShapeRep total_residue="250">
+                <Sphere><InitialPosition  x="536" y="461" z="248" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec15_GFPC">
+            <GeometricShapeRep total_residue="750">
+                <Sphere><InitialPosition  x="284" y="238" z="922" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Sec15_Anch">
+            <GeometricShapeRep total_residue="465">
+                <Sphere><InitialPosition  x="407" y="799" z="83" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+   </Protein>
+   <Protein>
+        <Fragment id="Exo70_GFPN">
+            <GeometricShapeRep total_residue="250">
+                <Sphere><InitialPosition x="480" y="311" z="214" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Exo70_GFPC">
+            <GeometricShapeRep total_residue="750">
+                <Sphere><InitialPosition x="613" y="611" z="944" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Exo70_Anch">
+            <GeometricShapeRep total_residue="465">
+                <Sphere><InitialPosition x="586" y="401" z="93" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+   </Protein>
+   <Protein>
+        <Fragment id="Exo84_GFPN">
+            <GeometricShapeRep total_residue="750">
+                <Sphere><InitialPosition x="127" y="348" z="240" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Exo84_GFPC">
+            <GeometricShapeRep total_residue="750">
+                <Sphere><InitialPosition x="607" y="908" z="100" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+        <Fragment id="Exo84_Anch">
+            <GeometricShapeRep total_residue="465">
+                <Sphere><InitialPosition x="361" y="517" z="515" optimize="1"/></Sphere>
+            </GeometricShapeRep>
+        </Fragment>
+   </Protein>
+</Representation>

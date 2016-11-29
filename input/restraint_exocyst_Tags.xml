@@ -1,0 +1,328 @@
+<RestraintSet name="restraint_set">
+
+ <Distance>
+
+<Restraint name="dst0" distance="268.8" std_dev="13.6">
+	<Particle id="Sec5_GFPC"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst1" distance="199.2" std_dev="13.7">
+	<Particle id="Sec5_GFPC"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst2" distance="200" std_dev="27.3">
+	<Particle id="Sec6_GFPC"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst3" distance="187.2" std_dev="24">
+	<Particle id="Sec8_GFPC"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst4" distance="245.2" std_dev="24.7">
+	<Particle id="Sec10_GFPC"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst5" distance="216.4" std_dev="32.8">
+	<Particle id="Sec15_GFPC"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst6" distance="164.1" std_dev="27.9">
+	<Particle id="Exo70_GFPC"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst7" distance="197.9" std_dev="30.7">
+	<Particle id="Exo84_GFPC"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst8" distance="269.6" std_dev="24.8">
+	<Particle id="Sec3_GFPC"/>
+	<Particle id="Sec6_Anch"/>
+</Restraint>
+<Restraint name="dst9" distance="244.9" std_dev="27.6">
+	<Particle id="Sec5_GFPC"/>
+	<Particle id="Sec6_Anch"/>
+</Restraint>
+<Restraint name="dst10" distance="205.5" std_dev="48.8">
+	<Particle id="Sec15_GFPC"/>
+	<Particle id="Sec6_Anch"/>
+</Restraint>
+<Restraint name="dst11" distance="220.4" std_dev="20.2">
+	<Particle id="Exo70_GFPC"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst12" distance="176.1" std_dev="23.5">
+	<Particle id="Exo84_GFPC"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst13" distance="227.1" std_dev="24.9">
+	<Particle id="Exo70_GFPC"/>
+	<Particle id="Sec6_Anch"/>
+</Restraint>
+<Restraint name="dst14" distance="246.7" std_dev="30.2">
+	<Particle id="Exo84_GFPC"/>
+	<Particle id="Sec6_Anch"/>
+</Restraint>
+<Restraint name="dst15" distance="209" std_dev="23.6">
+	<Particle id="Sec3_GFPC"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst16" distance="201.5" std_dev="19.8">
+	<Particle id="Sec5_GFPC"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst17" distance="228.7" std_dev="22.4">
+	<Particle id="Sec6_GFPC"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst18" distance="206.8" std_dev="17.3">
+	<Particle id="Sec10_GFPC"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst19" distance="219.9" std_dev="28.6">
+	<Particle id="Sec3_GFPC"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst20" distance="218.4" std_dev="20.1">
+	<Particle id="Sec5_GFPC"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst21" distance="225" std_dev="27.9">
+	<Particle id="Sec3_GFPC"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst22" distance="258.5" std_dev="25.1">
+	<Particle id="Sec5_GFPC"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst23" distance="201.7" std_dev="17.1">
+	<Particle id="Sec8_GFPC"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst24" distance="232.5" std_dev="18.8">
+	<Particle id="Sec15_GFPC"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst25" distance="242.9" std_dev="24.3">
+	<Particle id="Exo70_GFPC"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst26" distance="251.4" std_dev="24.1">
+	<Particle id="Exo84_GFPC"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst27" distance="217.5" std_dev="27.3">
+	<Particle id="Sec6_GFPC"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst28" distance="258.7" std_dev="19.8">
+	<Particle id="Sec6_GFPC"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst29" distance="293" std_dev="17.4">
+	<Particle id="Sec8_GFPC"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst30" distance="316.9" std_dev="19.4">
+	<Particle id="Sec10_GFPC"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst31" distance="177.2" std_dev="22.4">
+	<Particle id="Sec8_GFPC"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst32" distance="139.1" std_dev="33.5">
+	<Particle id="Sec10_GFPC"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst33" distance="221.2" std_dev="17.2">
+	<Particle id="Exo70_GFPC"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst34" distance="196.8" std_dev="24.8">
+	<Particle id="Exo84_GFPC"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst35" distance="240.2" std_dev="13">
+	<Particle id="Sec3_GFPC"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst36" distance="327.3" std_dev="17.3">
+	<Particle id="Sec15_GFPC"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst37" distance="204.9" std_dev="27.7">
+	<Particle id="Sec15_GFPC"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst38" distance="247.8" std_dev="17.6">
+	<Particle id="Exo70_GFPC"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst39" distance="290.9" std_dev="17.7">
+	<Particle id="Exo84_GFPC"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst40" distance="210.4" std_dev="17.2">
+	<Particle id="Sec3_GFPC"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst41" distance="195" std_dev="23.1">
+	<Particle id="Sec5_GFPC"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst42" distance="247.9" std_dev="25.7">
+	<Particle id="Sec6_GFPC"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst43" distance="206" std_dev="15.3">
+	<Particle id="Sec8_GFPC"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst44" distance="186" std_dev="23.6">
+	<Particle id="Sec10_GFPC"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst45" distance="204.6" std_dev="16.7">
+	<Particle id="Sec5_GFPN"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst46" distance="225.1" std_dev="14.1">
+	<Particle id="Sec5_GFPN"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst47" distance="205.6" std_dev="20.6">
+	<Particle id="Sec6_GFPN"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst48" distance="205.6" std_dev="36.5">
+	<Particle id="Sec10_GFPN"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst49" distance="236.5" std_dev="36.1">
+	<Particle id="Sec15_GFPN"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst50" distance="210.9" std_dev="41.9">
+	<Particle id="Sec3_GFPN"/>
+	<Particle id="Sec6_Anch"/>
+</Restraint>
+<Restraint name="dst51" distance="240" std_dev="20.2">
+	<Particle id="Sec3_GFPN"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst52" distance="224.7" std_dev="22.6">
+	<Particle id="Sec5_GFPN"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst53" distance="189.2" std_dev="14.4">
+	<Particle id="Sec6_GFPN"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst54" distance="273.7" std_dev="25.1">
+	<Particle id="Sec10_GFPN"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst55" distance="219.1" std_dev="28.3">
+	<Particle id="Sec3_GFPN"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst56" distance="238.3" std_dev="36.3">
+	<Particle id="Sec5_GFPN"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst57" distance="155.5" std_dev="48.2">
+	<Particle id="Sec5_GFPN"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst58" distance="234.8" std_dev="27.2">
+	<Particle id="Sec6_GFPN"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst59" distance="167.8" std_dev="22.1">
+	<Particle id="Sec15_GFPN"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst60" distance="275.1" std_dev="26.3">
+	<Particle id="Sec6_GFPN"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst61" distance="252.9" std_dev="18.1">
+	<Particle id="Sec6_GFPN"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst62" distance="214.7" std_dev="28.3">
+	<Particle id="Sec10_GFPN"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst63" distance="197.2" std_dev="23.6">
+	<Particle id="Sec3_GFPN"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+<Restraint name="dst64" distance="210.5" std_dev="18">
+	<Particle id="Sec15_GFPN"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+
+<Restraint name="dst65" distance="194.5" std_dev="21.1">
+	<Particle id="Sec3_GFPN"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst66" distance="239.2" std_dev="19.5">
+	<Particle id="Sec5_GFPN"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst67" distance="271.5" std_dev="17.7">
+	<Particle id="Sec6_GFPN"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst68" distance="234.7" std_dev="27.4">
+	<Particle id="Sec10_GFPN"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst69" distance="232.8" std_dev="23.2">
+	<Particle id="Exo70_GFPN"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst70" distance="229.8" std_dev="31">
+	<Particle id="Exo70_GFPN"/>
+	<Particle id="Sec6_Anch"/>
+</Restraint>
+<Restraint name="dst71" distance="232.6" std_dev="18">
+	<Particle id="Exo70_GFPN"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst72" distance="220.4" std_dev="32.1">
+	<Particle id="Exo70_GFPN"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst73" distance="189.2" std_dev="32.5">
+	<Particle id="Exo70_GFPN"/>
+	<Particle id="Exo84_Anch"/>
+</Restraint>
+<Restraint name="dst74" distance="233.4" std_dev="17.4">
+	<Particle id="Exo84_GFPN"/>
+	<Particle id="Sec8_Anch"/>
+</Restraint>
+<Restraint name="dst75" distance="153.6" std_dev="23.7">
+	<Particle id="Exo84_GFPN"/>
+	<Particle id="Sec10_Anch"/>
+</Restraint>
+<Restraint name="dst76" distance="225.5" std_dev="20.1">
+	<Particle id="Exo84_GFPN"/>
+	<Particle id="Sec3_Anch"/>
+</Restraint>
+<Restraint name="dst77" distance="202.2" std_dev="23.8">
+	<Particle id="Exo84_GFPN"/>
+	<Particle id="Sec6_Anch"/>
+</Restraint>
+<Restraint name="dst78" distance="243.2" std_dev="22.3">
+	<Particle id="Exo84_GFPN"/>
+	<Particle id="Sec15_Anch"/>
+</Restraint>
+<Restraint name="dst79" distance="183.8" std_dev="16.3">
+	<Particle id="Exo84_GFPN"/>
+	<Particle id="Exo70_Anch"/>
+</Restraint>
+</Distance>
+
+</RestraintSet>
