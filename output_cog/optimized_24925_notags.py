@@ -1,0 +1,191 @@
+import _surface
+import chimera
+try:
+  import chimera.runCommand
+except:
+  pass
+from VolumePath import markerset as ms
+try:
+  from VolumePath import Marker_Set, Link
+  new_marker_set=Marker_Set
+except:
+  from VolumePath import volume_path_dialog
+  d= volume_path_dialog(True)
+  new_marker_set= d.new_marker_set
+marker_sets={}
+surf_sets={}
+if "Cog2_0" not in marker_sets:
+  s=new_marker_set('Cog2_0')
+  marker_sets["Cog2_0"]=s
+s= marker_sets["Cog2_0"]
+mark=s.place_marker((334.555, 523.254, 608.453), (0.89, 0.1, 0.1), 2)
+if "Cog2_1" not in marker_sets:
+  s=new_marker_set('Cog2_1')
+  marker_sets["Cog2_1"]=s
+s= marker_sets["Cog2_1"]
+mark=s.place_marker((360.546, 547.427, 535.078), (0.89, 0.1, 0.1), 2)
+if "Cog3_0" not in marker_sets:
+  s=new_marker_set('Cog3_0')
+  marker_sets["Cog3_0"]=s
+s= marker_sets["Cog3_0"]
+mark=s.place_marker((327.934, 505.557, 627.599), (1, 1, 0.2), 2)
+if "Cog3_1" not in marker_sets:
+  s=new_marker_set('Cog3_1')
+  marker_sets["Cog3_1"]=s
+s= marker_sets["Cog3_1"]
+mark=s.place_marker((352.023, 492.102, 633.693), (1, 1, 0.2), 2)
+if "Cog3_2" not in marker_sets:
+  s=new_marker_set('Cog3_2')
+  marker_sets["Cog3_2"]=s
+s= marker_sets["Cog3_2"]
+mark=s.place_marker((373.044, 480.073, 647.882), (1, 1, 0.2), 2)
+if "Cog3_3" not in marker_sets:
+  s=new_marker_set('Cog3_3')
+  marker_sets["Cog3_3"]=s
+s= marker_sets["Cog3_3"]
+mark=s.place_marker((356.505, 457.605, 644.979), (1, 1, 0.2), 2)
+if "Cog3_4" not in marker_sets:
+  s=new_marker_set('Cog3_4')
+  marker_sets["Cog3_4"]=s
+s= marker_sets["Cog3_4"]
+mark=s.place_marker((339.163, 437.287, 636.098), (1, 1, 0.2), 2)
+if "Cog3_5" not in marker_sets:
+  s=new_marker_set('Cog3_5')
+  marker_sets["Cog3_5"]=s
+s= marker_sets["Cog3_5"]
+mark=s.place_marker((348.328, 415.463, 621.069), (1, 1, 0.2), 2)
+if "Cog4_0" not in marker_sets:
+  s=new_marker_set('Cog4_0')
+  marker_sets["Cog4_0"]=s
+s= marker_sets["Cog4_0"]
+mark=s.place_marker((471.029, 444.022, 460.423), (0, 0, 0.8), 2)
+if "Cog4_1" not in marker_sets:
+  s=new_marker_set('Cog4_1')
+  marker_sets["Cog4_1"]=s
+s= marker_sets["Cog4_1"]
+mark=s.place_marker((457.444, 434.884, 483.682), (0, 0, 0.8), 2)
+if "Cog4_2" not in marker_sets:
+  s=new_marker_set('Cog4_2')
+  marker_sets["Cog4_2"]=s
+s= marker_sets["Cog4_2"]
+mark=s.place_marker((440.473, 451.95, 499.151), (0, 0, 0.8), 2)
+if "Cog4_3" not in marker_sets:
+  s=new_marker_set('Cog4_3')
+  marker_sets["Cog4_3"]=s
+s= marker_sets["Cog4_3"]
+mark=s.place_marker((429.737, 465.044, 522.395), (0, 0, 0.8), 2)
+if "Cog4_4" not in marker_sets:
+  s=new_marker_set('Cog4_4')
+  marker_sets["Cog4_4"]=s
+s= marker_sets["Cog4_4"]
+mark=s.place_marker((419.353, 481.176, 543.922), (0, 0, 0.8), 2)
+if "Cog4_5" not in marker_sets:
+  s=new_marker_set('Cog4_5')
+  marker_sets["Cog4_5"]=s
+s= marker_sets["Cog4_5"]
+mark=s.place_marker((404.75, 495.871, 564.073), (0, 0, 0.8), 2)
+if "Cog4_6" not in marker_sets:
+  s=new_marker_set('Cog4_6')
+  marker_sets["Cog4_6"]=s
+s= marker_sets["Cog4_6"]
+mark=s.place_marker((386.567, 505.453, 584.61), (0, 0, 0.8), 2)
+if "Cog5_0" not in marker_sets:
+  s=new_marker_set('Cog5_0')
+  marker_sets["Cog5_0"]=s
+s= marker_sets["Cog5_0"]
+mark=s.place_marker((394.346, 539.292, 568.124), (0.3, 0.3, 0.3), 2)
+if "Cog5_1" not in marker_sets:
+  s=new_marker_set('Cog5_1')
+  marker_sets["Cog5_1"]=s
+s= marker_sets["Cog5_1"]
+mark=s.place_marker((368.2, 528.643, 562.134), (0.3, 0.3, 0.3), 2)
+if "Cog5_2" not in marker_sets:
+  s=new_marker_set('Cog5_2')
+  marker_sets["Cog5_2"]=s
+s= marker_sets["Cog5_2"]
+mark=s.place_marker((341.93, 524.559, 550.715), (0.3, 0.3, 0.3), 2)
+if "Cog5_3" not in marker_sets:
+  s=new_marker_set('Cog5_3')
+  marker_sets["Cog5_3"]=s
+s= marker_sets["Cog5_3"]
+mark=s.place_marker((326.953, 541.881, 533.144), (0.3, 0.3, 0.3), 2)
+if "Cog6_0" not in marker_sets:
+  s=new_marker_set('Cog6_0')
+  marker_sets["Cog6_0"]=s
+s= marker_sets["Cog6_0"]
+mark=s.place_marker((306.213, 521.448, 608.671), (0.21, 0.49, 0.72), 2)
+if "Cog6_1" not in marker_sets:
+  s=new_marker_set('Cog6_1')
+  marker_sets["Cog6_1"]=s
+s= marker_sets["Cog6_1"]
+mark=s.place_marker((311.552, 504.242, 587.142), (0.21, 0.49, 0.72), 2)
+if "Cog6_2" not in marker_sets:
+  s=new_marker_set('Cog6_2')
+  marker_sets["Cog6_2"]=s
+s= marker_sets["Cog6_2"]
+mark=s.place_marker((338.882, 497.126, 586.757), (0.21, 0.49, 0.72), 2)
+if "Cog6_3" not in marker_sets:
+  s=new_marker_set('Cog6_3')
+  marker_sets["Cog6_3"]=s
+s= marker_sets["Cog6_3"]
+mark=s.place_marker((361.52, 480.38, 589.466), (0.21, 0.49, 0.72), 2)
+if "Cog6_4" not in marker_sets:
+  s=new_marker_set('Cog6_4')
+  marker_sets["Cog6_4"]=s
+s= marker_sets["Cog6_4"]
+mark=s.place_marker((379.796, 459.089, 592.027), (0.21, 0.49, 0.72), 2)
+if "Cog6_5" not in marker_sets:
+  s=new_marker_set('Cog6_5')
+  marker_sets["Cog6_5"]=s
+s= marker_sets["Cog6_5"]
+mark=s.place_marker((381.707, 439.112, 611.516), (0.21, 0.49, 0.72), 2)
+if "Cog6_6" not in marker_sets:
+  s=new_marker_set('Cog6_6')
+  marker_sets["Cog6_6"]=s
+s= marker_sets["Cog6_6"]
+mark=s.place_marker((374.017, 429.644, 636.617), (0.21, 0.49, 0.72), 2)
+if "Cog7_0" not in marker_sets:
+  s=new_marker_set('Cog7_0')
+  marker_sets["Cog7_0"]=s
+s= marker_sets["Cog7_0"]
+mark=s.place_marker((366.8, 551.678, 611.712), (0.7, 0.7, 0.7), 2)
+if "Cog7_1" not in marker_sets:
+  s=new_marker_set('Cog7_1')
+  marker_sets["Cog7_1"]=s
+s= marker_sets["Cog7_1"]
+mark=s.place_marker((325.79, 544.886, 572.097), (0.7, 0.7, 0.7), 2)
+if "Cog7_2" not in marker_sets:
+  s=new_marker_set('Cog7_2')
+  marker_sets["Cog7_2"]=s
+s= marker_sets["Cog7_2"]
+mark=s.place_marker((284.63, 537.5, 532.187), (0.7, 0.7, 0.7), 2)
+if "Cog8_0" not in marker_sets:
+  s=new_marker_set('Cog8_0')
+  marker_sets["Cog8_0"]=s
+s= marker_sets["Cog8_0"]
+mark=s.place_marker((323.566, 528.694, 652.954), (1, 0.5, 0), 2)
+if "Cog8_1" not in marker_sets:
+  s=new_marker_set('Cog8_1')
+  marker_sets["Cog8_1"]=s
+s= marker_sets["Cog8_1"]
+mark=s.place_marker((324.139, 546.335, 631.041), (1, 0.5, 0), 2)
+if "Cog8_2" not in marker_sets:
+  s=new_marker_set('Cog8_2')
+  marker_sets["Cog8_2"]=s
+s= marker_sets["Cog8_2"]
+mark=s.place_marker((320.833, 554.459, 604.394), (1, 0.5, 0), 2)
+if "Cog8_3" not in marker_sets:
+  s=new_marker_set('Cog8_3')
+  marker_sets["Cog8_3"]=s
+s= marker_sets["Cog8_3"]
+mark=s.place_marker((333.928, 573.999, 588.177), (1, 0.5, 0), 2)
+if "Cog8_4" not in marker_sets:
+  s=new_marker_set('Cog8_4')
+  marker_sets["Cog8_4"]=s
+s= marker_sets["Cog8_4"]
+mark=s.place_marker((344.328, 586.158, 564.969), (1, 0.5, 0), 2)
+if "Cog8_5" not in marker_sets:
+  s=new_marker_set('Cog8_5')
+  marker_sets["Cog8_5"]=s
+s= marker_sets["Cog8_5"]
+mark=s.place_marker((355.178, 597.822, 541.637), (1, 0.5, 0), 2)
