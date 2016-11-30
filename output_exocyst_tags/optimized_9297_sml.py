@@ -1,0 +1,128 @@
+import _surface
+import chimera
+try:
+  import chimera.runCommand
+except:
+  pass
+from VolumePath import markerset as ms
+try:
+  from VolumePath import Marker_Set, Link
+  new_marker_set=Marker_Set
+except:
+  from VolumePath import volume_path_dialog
+  d= volume_path_dialog(True)
+  new_marker_set= d.new_marker_set
+marker_sets={}
+surf_sets={}
+if "Sec3_GFPN" not in marker_sets:
+  s=new_marker_set('Sec3_GFPN')
+  marker_sets["Sec3_GFPN"]=s
+s= marker_sets["Sec3_GFPN"]
+mark=s.place_marker((572.337, 410.896, 467.961), (0.15, 0.78, 0.66), 2)
+if "Sec3_GFPC" not in marker_sets:
+  s=new_marker_set('Sec3_GFPC')
+  marker_sets["Sec3_GFPC"]=s
+s= marker_sets["Sec3_GFPC"]
+mark=s.place_marker((530.332, 437.196, 464.967), (0.15, 0.78, 0.66), 2)
+if "Sec3_Anch" not in marker_sets:
+  s=new_marker_set('Sec3_Anch')
+  marker_sets["Sec3_Anch"]=s
+s= marker_sets["Sec3_Anch"]
+mark=s.place_marker((503.93, 523.569, 673.15), (0.15, 0.58, 0.66), 2)
+if "Sec5_GFPN" not in marker_sets:
+  s=new_marker_set('Sec5_GFPN')
+  marker_sets["Sec5_GFPN"]=s
+s= marker_sets["Sec5_GFPN"]
+mark=s.place_marker((570.048, 393.063, 505.657), (0.38, 0.24, 0.37), 2)
+if "Sec5_GFPC" not in marker_sets:
+  s=new_marker_set('Sec5_GFPC')
+  marker_sets["Sec5_GFPC"]=s
+s= marker_sets["Sec5_GFPC"]
+mark=s.place_marker((529.099, 471.439, 476.257), (0.38, 0.24, 0.37), 2)
+if "Sec6_GFPN" not in marker_sets:
+  s=new_marker_set('Sec6_GFPN')
+  marker_sets["Sec6_GFPN"]=s
+s= marker_sets["Sec6_GFPN"]
+mark=s.place_marker((508.507, 400.913, 509.863), (0.84, 0.98, 0.24), 2)
+if "Sec6_GFPC" not in marker_sets:
+  s=new_marker_set('Sec6_GFPC')
+  marker_sets["Sec6_GFPC"]=s
+s= marker_sets["Sec6_GFPC"]
+mark=s.place_marker((666.137, 468.925, 591.065), (0.84, 0.98, 0.24), 2)
+if "Sec6_Anch" not in marker_sets:
+  s=new_marker_set('Sec6_Anch')
+  marker_sets["Sec6_Anch"]=s
+s= marker_sets["Sec6_Anch"]
+mark=s.place_marker((782.553, 456.725, 450.73), (0.84, 0.78, 0.24), 2)
+if "Sec8_GFPC" not in marker_sets:
+  s=new_marker_set('Sec8_GFPC')
+  marker_sets["Sec8_GFPC"]=s
+s= marker_sets["Sec8_GFPC"]
+mark=s.place_marker((660.766, 527.906, 569.933), (0.62, 0.67, 0.45), 2)
+if "Sec8_Anch" not in marker_sets:
+  s=new_marker_set('Sec8_Anch')
+  marker_sets["Sec8_Anch"]=s
+s= marker_sets["Sec8_Anch"]
+mark=s.place_marker((443.651, 526.084, 636.667), (0.62, 0.47, 0.45), 2)
+if "Sec10_GFPN" not in marker_sets:
+  s=new_marker_set('Sec10_GFPN')
+  marker_sets["Sec10_GFPN"]=s
+s= marker_sets["Sec10_GFPN"]
+mark=s.place_marker((709.735, 520.502, 601.193), (0, 0.91, 0), 2)
+if "Sec10_GFPC" not in marker_sets:
+  s=new_marker_set('Sec10_GFPC')
+  marker_sets["Sec10_GFPC"]=s
+s= marker_sets["Sec10_GFPC"]
+mark=s.place_marker((528.455, 546.905, 442.783), (0, 0.91, 0), 2)
+if "Sec10_Anch" not in marker_sets:
+  s=new_marker_set('Sec10_Anch')
+  marker_sets["Sec10_Anch"]=s
+s= marker_sets["Sec10_Anch"]
+mark=s.place_marker((737.064, 346.851, 521.766), (0, 0.71, 0), 2)
+if "Sec15_GFPN" not in marker_sets:
+  s=new_marker_set('Sec15_GFPN')
+  marker_sets["Sec15_GFPN"]=s
+s= marker_sets["Sec15_GFPN"]
+mark=s.place_marker((628.345, 467.46, 480.206), (0.11, 0.51, 0.86), 2)
+if "Sec15_GFPC" not in marker_sets:
+  s=new_marker_set('Sec15_GFPC')
+  marker_sets["Sec15_GFPC"]=s
+s= marker_sets["Sec15_GFPC"]
+mark=s.place_marker((687.058, 570.34, 572.078), (0.11, 0.51, 0.86), 2)
+if "Sec15_Anch" not in marker_sets:
+  s=new_marker_set('Sec15_Anch')
+  marker_sets["Sec15_Anch"]=s
+s= marker_sets["Sec15_Anch"]
+mark=s.place_marker((672.843, 604.362, 407.494), (0.11, 0.31, 0.86), 2)
+if "Exo70_GFPN" not in marker_sets:
+  s=new_marker_set('Exo70_GFPN')
+  marker_sets["Exo70_GFPN"]=s
+s= marker_sets["Exo70_GFPN"]
+mark=s.place_marker((553.744, 442.487, 454.413), (0.89, 0.47, 0.4), 2)
+if "Exo70_GFPC" not in marker_sets:
+  s=new_marker_set('Exo70_GFPC')
+  marker_sets["Exo70_GFPC"]=s
+s= marker_sets["Exo70_GFPC"]
+mark=s.place_marker((659.822, 552.163, 617.902), (0.89, 0.47, 0.4), 2)
+if "Exo70_Anch" not in marker_sets:
+  s=new_marker_set('Exo70_Anch')
+  marker_sets["Exo70_Anch"]=s
+s= marker_sets["Exo70_Anch"]
+mark=s.place_marker((712.239, 286.7, 411.794), (0.89, 0.27, 0.4), 2)
+if "Exo84_GFPN" not in marker_sets:
+  s=new_marker_set('Exo84_GFPN')
+  marker_sets["Exo84_GFPN"]=s
+s= marker_sets["Exo84_GFPN"]
+mark=s.place_marker((595.257, 397.903, 507.798), (0.5, 0.7, 0), 2)
+if "Exo84_GFPC" not in marker_sets:
+  s=new_marker_set('Exo84_GFPC')
+  marker_sets["Exo84_GFPC"]=s
+s= marker_sets["Exo84_GFPC"]
+mark=s.place_marker((533.941, 497.847, 487.048), (0.5, 0.7, 0), 2)
+if "Exo84_Anch" not in marker_sets:
+  s=new_marker_set('Exo84_Anch')
+  marker_sets["Exo84_Anch"]=s
+s= marker_sets["Exo84_Anch"]
+mark=s.place_marker((688.135, 540.763, 367.274), (0.5, 0.5, 0), 2)
+for k in surf_sets.keys():
+  chimera.openModels.add([surf_sets[k]])
