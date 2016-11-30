@@ -7,12 +7,12 @@ UCSF chimera
 ##Usage
 ###Exocyst
 ####Tag modeling:
-create output directory
-1 - mkdir output
-generate 10000 models
-2 - runIMP_exocystTags.pl 10000 0 output
-get the RMSD matrix from the best models
-3 - evalbstmdl_exocyst.pl output_tags
+create output directory\n
+1 - mkdir output\n
+generate 10000 models\n
+2 - runIMP_exocystTags.pl 10000 0 output\n
+get the RMSD matrix from the best models\n
+3 - evalbstmdl_exocyst.pl output_tags\n
 
 
 ####Protein modeling:
