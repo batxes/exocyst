@@ -3,6 +3,8 @@ These scripts were used to model the 3D architecture of the exocyst and COG prot
 
 Andrea Picco, Ibai Irastorza-Azcarate, Tanja Specht, Dominik Böke, Irene Pazos, Anne-Sophie Rivier-Cordey, Damien P. Devos, Marko Kaksonen, Oriol Gallego, The in vivo architecture of the exocyst provides structural basis for exocytosis, Cell; DOI:to be announced
 
+There are also uploaded the exocyst models, exocyst tag models, cog models and cog tag models.
+
 This is the repository to which the Cell STAR methods points to.
 
 ##Requirements:
