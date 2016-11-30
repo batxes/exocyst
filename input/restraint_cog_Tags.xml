@@ -60,8 +60,6 @@
 	<Particle id="Cog2_Anch"/>
 </Restraint>
 
-
-
 <Restraint name="dst15" distance="308.2" std_dev="33.9">
 	<Particle id="Cog3_GFPN"/>
 	<Particle id="Cog2_Anch"/>
@@ -337,10 +335,6 @@
 	<Particle id="Cog7_GFPN"/>
 	<Particle id="Cog8_Anch"/>
 </Restraint>
-
-
-
-
 
 <Restraint name="dst82" distance="205.5" std_dev="55">
 	<Particle id="Cog4_GFPC"/>

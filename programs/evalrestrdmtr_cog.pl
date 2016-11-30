@@ -81,19 +81,19 @@ while (<RES>) {
 
 #we generate 2 python file evaluators, one for distance and diameters and another one for y2h
 #since some distances are already evaluated
-open (CHM,">chimeraEvaldmtr.py");
+open (CHM,">chimeraEvaldmtr_cog.py");
 print CHM "import os\nfrom chimera import runCommand as rc\nfrom chimera import replyobj\n";
 print CHM "os.chdir(\"./output\")\n";
 print CHM "rc(\"open optimized_$ARGV[0].py\")\n";
 
-open (CHMY2H,">chimeraEvaldmtrY2H.py");
+open (CHMY2H,">chimeraEvaldmtrY2H_cog.py");
 print CHMY2H "import os\nfrom chimera import runCommand as rc\nfrom chimera import replyobj\n";
 print CHMY2H "os.chdir(\"./output\")\n";
 print CHMY2H "rc(\"open optimized_$ARGV[0].py\")\n";
 
 foreach $pr (keys %res) {
 	@pr=split /-/,$pr;
-	#print "Diam $res{$pr} with std $std{$pr} btw $pr -$id{$pr[0]} $id{$pr[1]}=\n";
+	print "Diam $res{$pr} with std $std{$pr} btw $pr -$id{$pr[0]} $id{$pr[1]}=\n";
 	print CHM "rc(\"distance \#$id{$pr[0]} \#$id{$pr[1]}\")\n";
 }
 foreach $pr (keys %dis) {

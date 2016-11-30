@@ -3,6 +3,7 @@
 srand;
 #score limit variable
 $scrlmt=11660;
+$scrlmt=12000; 
 die "USAGE: ./runIMP.pl cluster_matrix_file nbr_iterat \n" unless ($ARGV[0]=~/\d/);
 
 @df=split/\//,$ARGV[0];

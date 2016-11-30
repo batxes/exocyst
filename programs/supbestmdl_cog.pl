@@ -1,9 +1,11 @@
 #!/usr/bin/perl
 
 #for the COG proteins
-
+# remember that we need models that satisfy all restraints. All restraints = 0
+$satisfaction_res = 0;
 #number of random models to represent from full population
-$random_models = 100;  #in this case, out of 217
+$random_models = 100; #Take 100 random models from the 200 best 
+$best_models = 200;
 @aux; 
 ##get the scores
 open (IN,"./output/scores_final.txt");
@@ -16,8 +18,7 @@ while (<IN>) {last if (/###/);chomp;
 $cnt=-1;
 foreach $s (sort bys keys %s) {
      $cnt++;
-     last if ($cnt==1000); # para los 100 mejores, yo tengo 85
-     #last if ($cnt==40);
+     last if ($cnt==1000); 
      print "$cnt $s with $s{$s}\n";
 #    open (SAT,"./programs/evalmdl.pl $s |");
      open (SAT,"perl ./programs/evalrestrdmtr_cog.pl $s |");
@@ -26,14 +27,15 @@ foreach $s (sort bys keys %s) {
                 print <SAT>;
                 print;
                 $nsr=$1;
-                if ($1<15){ #number of restraints to fulfil
+                if ($1<=$satisfaction_res){ #number of restraints to fulfil
                     push @nurm,$s;
+                    print "<--- Satisfied! \n";
                 }
                 print "nurm scalar: ";
                 print scalar(@nurm);
                 print "\n";
 
-                if (scalar(@nurm) eq '200'){
+                if (scalar(@nurm) eq $best_models){
                     $cnt = 999;
                 }
 #   	         push @nurm,$s if ($1<=1);
@@ -51,29 +53,23 @@ for ($i=0; $i<$random_models;$i++){
     $random_number = int (rand(scalar@nn));
     push (@aux,$nn[$random_number]);
     splice(@nn,$random_number,1);    
-    print "tamano aux = ";
-    print scalar@aux;
-    print "\n";
-    print "tamano nn = ";
-    print scalar@nn;
-    print "\n";
 }
 #@nn = @aux;  
 
-system ("perl programs/removtag.pl output/optimized_$nn[0].py\n");
+print ("perl programs/removtag_cog.pl output/optimized_$nn[0].py\n");
+system ("perl programs/removtag_cog.pl output/optimized_$nn[0].py\n");
 
 open (CHM,">chimera_bstmdlnotags.py");
-print CHM "import os\nfrom chimera import runCommand as rc\nfrom chimera import replyobj\nos.chdir(\"/home/bioinfo/PHD/exocystimp/output\")\n";
+print CHM "import os\nfrom chimera import runCommand as rc\nfrom chimera import replyobj\nos.chdir(\"./output\")\n";
 print CHM "rc(\"open optimized_$nn[0]_notags.py\")\n";
 
-$nbrprt1=1;#cog1 
-$nbrprt2=5;#2
-$nbrprt3=6;#3
-$nbrprt4=3;#4		
-$nbrprt5=6;#5
-$nbrprt6=2;#6
-$nbrprt7=5;#7
-#$nbrprt8=5;#8
+$nbrprt1=1;#cog2
+$nbrprt2=5;#3
+$nbrprt3=6;#4
+$nbrprt4=3;#5		
+$nbrprt5=6;#6
+$nbrprt6=2;#7
+$nbrprt7=5;#8
 
 $b1=0;$e1=$b1+$nbrprt1;
 $b2=$e1+1;$e2=$b2+$nbrprt2;
@@ -82,18 +78,15 @@ $b4=$e3+1;$e4=$b4+$nbrprt4;
 $b5=$e4+1;$e5=$b5+$nbrprt5;
 $b6=$e5+1;$e6=$b6+$nbrprt6;
 $b7=$e6+1;$e7=$b7+$nbrprt7;
-#$b8=$e7+1;$e8=$b8+$nbrprt8;
 
-#$nef=$e8;
 $nef=$e7;
 $e8=$e7;
 
-#for ($i=1;$i<=99;$i++) {
 #use the line below if less than 100 models
 for ($i=1;$i<=$#nn;$i++) {
 $nn=$nn[$i];
 next unless (-e "output/optimized_${nn}.py");
-system ("perl programs/removtag.pl output/optimized_${nn}.py\n");
+system ("perl programs/removtag_cog.pl output/optimized_${nn}.py\n");
 #	push @nurm,$s if ($1==0);
 
  print CHM "rc(\"open optimized_${nn}_notags.py\")\n";
