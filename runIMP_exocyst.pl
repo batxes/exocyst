@@ -2,7 +2,7 @@
 
 srand;
 #score limit variable
-$scrlmt=3450;
+$scrlmt=6000;
 die "USAGE: ./runIMP.pl cluster_matrix_file nbr_iterat \n" unless ($ARGV[0]=~/\d/);
 
 @df=split/\//,$ARGV[0];
@@ -74,12 +74,15 @@ print SCR "$i\t$scr\n";
 $sc=int($scr/10);
 $sc{$sc}++;
 
-print "Protein score: $scr. Limit: $scrlmt\n\n";
+print "Protein score: $scr. Limit: $scrlmt";
 if ($scr<$scrlmt) {
-print "rc(\"open $df[0]/$cl[$rndfil]\") __model:$i\n";
+    print "   <--------- Succees!\n";
 system "mv output/initial.py output/initial_$i.py";
 system "mv output/optimized.py output/optimized_$i.py";
 system "mv output/log_scr.txt output/log_scr_$i.txt";
+}
+else{
+    print "\n";
 }
 }
 
